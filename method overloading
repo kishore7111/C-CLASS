@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+void multiple(int a, int b)
+{
+    int divison;
+    divison=a/b;
+    cout <<  "The divison of numbers is : " <<divison<<endl;
+}
+void multiple(int a, int b, int c)
+{
+    int sub;
+    sub=a-b-c;
+    cout <<  "The difference of numbers is : " <<sub<<endl;
+}
+void multiple(int a, int b, int c,int d)
+{
+    int product;
+    product=a*b*c*d;
+    cout <<  "The product of numbers is : " <<product<<endl;
+}
+
+void multiple(int a, int b, int c,int d,int e)
+{
+    int add;
+    add=a+b+c+d+e;
+    cout <<  "The sum  of number is: " <<add<<endl;
+}
+int main()
+{
+    multiple(32,4);
+    multiple(56,687,768);
+    multiple(34,56,21,12);
+    multiple(32,4,32,4,32);
+}
