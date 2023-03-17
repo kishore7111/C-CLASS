@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void multiple(int a,int b)
+{
+    int product;
+    product=a*b;
+    cout <<  "The product is of two number is: " <<product<<endl;
+}
+void multiple(int a, int b, int c)
+{
+    int product;
+    product=a*b*c;
+    cout <<  "The product of three numbers is : " <<product<<endl;
+}
+int main()
+{
+    multiple(34,56);
+    multiple(56,687,768);
+}
