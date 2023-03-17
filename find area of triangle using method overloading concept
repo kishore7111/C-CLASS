@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class area
+{
+    public:
+    int h;
+    int b;
+    void measure()
+    {
+        cout << "Enter the height of the triangle: ";
+        cin >> h;
+        cout <<"enter the base of the triangle: ";
+        cin >> b;
+    }
+};
+class triangle : public area
+{
+    public:
+    int area;
+    void calculation()
+    {
+        area=(h*b)/2;
+        cout <<" Area of the triangle is " <<area <<endl;
+    }
+};
+int main()
+    {
+        triangle obj;
+        obj.measure();
+        obj.calculation();
+    
+    }
